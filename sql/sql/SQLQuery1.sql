@@ -1,2 +1,5 @@
-﻿INSERT INTO Region (RegionID, RegionDescription) VALUES (1234,'Europe');
-SELECT * FROM REGION;
+﻿
+/* Update Region SET RegionDescription = 'Paris' Where RegionID = 1234;*/
+
+UPDATE Region set RegionDescription = 'CH' WHERE RegionDescription = 'Paris';
+Select * FROM REGION;
